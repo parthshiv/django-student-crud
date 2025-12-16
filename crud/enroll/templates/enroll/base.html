@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Python CRUD Application</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+    
+</head>
+
+<body>
+    
+    <div class="container ">
+        <ul class="nav bg-info mt-2">
+            <li class="nav-item">
+                <a class="nav-link link-light" href="/">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-light" href="/dashboard">Dashboard</a>
+            </li>
+        </ul>
+        <h1 class="text-center">{{title}}</h1>    
+        {% block content %} {% endblock content %}
+    </div>
+    <script scr="{% static 'js/jquery.min.js'%}"></script>
+    <script scr="{% static 'js/popper.min.js'%}"></script>
+    <script scr="{% static 'js/bootstrap.min.js'%}"></script>
+</body>
+
+</html>

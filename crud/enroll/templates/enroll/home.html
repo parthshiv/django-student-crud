@@ -1,0 +1,13 @@
+{% extends 'enroll/base.html' %}
+{% block content %}
+    <h2>Welcome to Home Page</h2>
+    <ul class="nav mt-2">
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'dashboard' %}">Go to Dashboard</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/registration">New Student Registration</a>
+        </li>
+    </ul>
+    
+{% endblock content %}

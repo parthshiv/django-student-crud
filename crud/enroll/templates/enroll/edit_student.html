@@ -1,0 +1,17 @@
+{% extends 'enroll/base.html' %}
+{% block content %}    
+    <div class="row">
+        <div class="col-sm-4">
+            <form method="POST" action="{% url 'save_student' %}">
+                {% csrf_token %}
+                {{form.as_p}}
+                <input type="hidden" name="student_id" value="{{student_id}}" />
+                <button class="btn btn-primary" type="submit" name="btnSave">Update</button>
+                <a href="{% url 'dashboard' %}"><button class="btn btn-secondary" type="button" name="btnCancel">Cancel</button></a>
+            </form>
+            
+        </div>
+        
+    </div>
+    
+{% endblock content %}
