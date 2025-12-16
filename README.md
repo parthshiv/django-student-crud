@@ -30,8 +30,21 @@ This project is ideal for learning Django models, forms, and views while buildin
 1. **Clone the repository**:
 ```bash
 git clone https://github.com/yourusername/django-student-crud.git
-cd django-student-crud
+cd django-student-crud/crud
 ```
+## Basic Django Commands
+
+| Command | Description |
+|---------|-------------|
+| `django-admin startproject projectname` | Create a new Django project |
+| `python manage.py startapp appname` | Create a new Django app inside the project |
+| `python manage.py runserver` | Start the development server |
+| `python manage.py makemigrations` | Create new migrations based on model changes |
+| `python manage.py migrate` | Apply migrations to the database |
+| `python manage.py createsuperuser` | Create an admin user |
+| `python manage.py test` | Run all tests in the project |
+| `python manage.py showmigrations` | List all migrations and their status |
+
 
 ## Install dependencies:
 ```bash
