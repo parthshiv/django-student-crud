@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="enroll.tests.StudentTestCase-20251217155343" tests="4" file="enroll/tests.py" time="0.017" timestamp="2025-12-17T15:53:43" failures="0" errors="0" skipped="0">
+	<testcase classname="enroll.tests.StudentTestCase" name="test_add_student" time="0.000" timestamp="2025-12-17T15:53:43" file="enroll\tests.py" line="15"/>
+	<testcase classname="enroll.tests.StudentTestCase" name="test_delete_student" time="0.014" timestamp="2025-12-17T15:53:43" file="enroll\tests.py" line="46"/>
+	<testcase classname="enroll.tests.StudentTestCase" name="test_get_student" time="0.000" timestamp="2025-12-17T15:53:43" file="enroll\tests.py" line="55"/>
+	<testcase classname="enroll.tests.StudentTestCase" name="test_update_student" time="0.003" timestamp="2025-12-17T15:53:43" file="enroll\tests.py" line="31"/>
+</testsuite>
