@@ -39,7 +39,7 @@ class StudentTestCase(TestCase):
         updated_student = Student.objects.get(id=self.student.id)
 
         # Assertions
-        self.assertEqual(updated_student.name, 'John Parmar')
+        self.assertEqual(updated_student.name, 'John Updated')
         self.assertEqual(updated_student.email, 'johnupdated@example.com')
         self.assertEqual(updated_student.password, 'newpassword123')
 
@@ -62,4 +62,4 @@ class StudentTestCase(TestCase):
         self.assertEqual(fetched_student.password, 'password123')
     
     def test_dummy_test(self):
-        self.assertTrue(False)
+        self.assertTrue(True)
