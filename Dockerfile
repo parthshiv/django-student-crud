@@ -1,4 +1,5 @@
-FROM parthshivu/django-student-crud
+#FROM parthshivu/django-student-crud
+FROM python:3.11-slim
 
 WORKDIR /app
 
