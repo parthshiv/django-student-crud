@@ -1,7 +1,6 @@
 FROM parthshivu/django-student-crud
 
 WORKDIR /app
-COPY . /app
 
 # System dependencies
 RUN apt-get update && apt-get install -y \
@@ -13,7 +12,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Application code
-COPY . .
+COPY . /app
 
 EXPOSE 8000
 
